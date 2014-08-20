@@ -10,13 +10,14 @@
 11,"Special Attack",4.03
 13,"Heal",4.03
 15,"Return Home",4.03
+16,"Unknown",4.07
 17,"Temporary Morale Boost",4.03
 19,"Teleport",4.03
 20,"Blink",4.03
 21,"Summon Commander",4.03
 22,"Fate of Oedipus",4.03
 23,"Bless/Buff (Type II)",4.03
-24,"Damage vs Demon/Undead {Wpn: #dt_holy}",4.03
+24,"Damage (x3 vs Undead/Demon) {Wpn: #dt_holy}",4.03
 25,"Wish",4.03
 26,"Ritual of Rebirth",4.03
 27,"Magic Duel",4.03
@@ -24,8 +25,8 @@
 29,"Charm",4.03
 30,"Dispel",4.03
 31,"Call Horror",4.03
-32,"Damage vs Large Creatures {Wpn: #dt_large}",4.03
-33,"Damage vs Small Creatures {Wpn: #dt_small}",4.03
+32,"Damage (x2 vs Large Creatures) {Wpn: #dt_large}",4.03
+33,"Damage (x3 vs Small Creatures) {Wpn: #dt_small}",4.03
 35,"Cross Breeding",4.03
 37,"Remote Summon (Type I)",4.03
 38,"Remote Summon (Type II)",4.03
@@ -50,8 +51,8 @@
 68,"Summon Animals",4.03
 70,"Crumble",4.03
 72,"Life Overload Damage (?)",4.03
-73,"Damage vs Magic Beings {Wpn: #dt_magic}",4.03
-74,"Unlife Damage (?)",4.03
+73,"Damage (x2 vs Magic Beings) {Wpn: #dt_magic}",4.03
+74,"Unlife Damage (?) {Wpn: #dt_raise}",4.03
 75,"Raven Feast",4.03
 76,"Tartarian Gate",4.03
 77,"Astral Travel",4.03
@@ -94,6 +95,9 @@
 118,"Blood Feast",4.03
 119,"Send Lady Midday",4.03
 120,"Release Imprisoned Ones",4.03
+121,"Grab and Swallow",4.05
+122,"Unknown",4.07
+123,"Unknown",4.10
 500,"Dehydrate",4.03
 504,"Resist Element",4.03
 509,"Protect against Element",4.03

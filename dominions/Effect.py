@@ -196,6 +196,10 @@ EFFECTS_BUILDER_DATA[ 15 ]      = _EffectsBuilderData(
     "unknown_arguments", "<Unknown Argument Type>",
     "EffectArgument_GenericValue"
 )
+EFFECTS_BUILDER_DATA[ 16 ]      = _EffectsBuilderData(
+    "unknown_arguments", "<Unknown Argument Type>",
+    "EffectArgument_GenericValue"
+)
 EFFECTS_BUILDER_DATA[ 19 ]      = _EffectsBuilderData(
     "unknown_arguments", "<Unknown Argument Type>",
     "EffectArgument_GenericValue"
@@ -509,6 +513,18 @@ EFFECTS_BUILDER_DATA[ 119 ]       = _EffectsBuilderData(
     "summons", "Monster", "EffectArgument_GenericSummon"
 )
 EFFECTS_BUILDER_DATA[ 120 ]       = _EffectsBuilderData(
+    "unknown_arguments", "<Unknown Argument Type>",
+    "EffectArgument_GenericValue"
+)
+EFFECTS_BUILDER_DATA[ 121 ]       = _EffectsBuilderData(
+    "unknown_arguments", "Grab and Swallow",
+    "EffectArgument_GenericValue"
+)
+EFFECTS_BUILDER_DATA[ 122 ]       = _EffectsBuilderData(
+    "unknown_arguments", "<Unknown Argument Type>",
+    "EffectArgument_GenericValue"
+)
+EFFECTS_BUILDER_DATA[ 123 ]       = _EffectsBuilderData(
     "unknown_arguments", "<Unknown Argument Type>",
     "EffectArgument_GenericValue"
 )

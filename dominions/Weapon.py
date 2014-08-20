@@ -109,7 +109,7 @@ class Weapon( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
 
     _TITLE                      = "Weapon"
     _PROGRAM_IMAGE_RECORD_SIZES = {
-        "4.03": 112, "4.04": 112,
+        "4.03": 112, "4.04": 112, "4.05": 112, "4.05b": 112, "4.07": 112, "4.10": 112
     }
 
 
@@ -412,7 +412,8 @@ class Weapons_DataTable( _DataTable_NamedInteger, _DataTable_ProgramImage ):
 
     _PROGRAM_IMAGE_BASE_OFFSETS = {
         _PLATFORM_LINUX( ): {
-            "4.01": 0x961DA0, "4.03": 0x96E800, "4.04": 0x9B3260,
+            "4.01": 0x961DA0, "4.03": 0x96E800, "4.04": 0x9B3260, "4.05": 0x9448C0, "4.05b": 0x0945830,
+            "4.07": 0x089CEE0, "4.10": 0x0B35400
         }
     }
 

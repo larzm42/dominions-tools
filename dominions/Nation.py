@@ -100,7 +100,7 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
 
     _TITLE                      = "Nation"
     _PROGRAM_IMAGE_RECORD_SIZES = {
-        "4.03": 1108, "4.04": 1108,
+        "4.03": 1108, "4.04": 1108, "4.05": 1108, "4.05b": 1108, "4.07": 1108, "4.10": 1108
     }
 
 
@@ -520,7 +520,8 @@ class Nations_DataTable( _DataTable_NamedInteger, _DataTable_ProgramImage ):
 
     _PROGRAM_IMAGE_BASE_OFFSETS = {
         _PLATFORM_LINUX( ): {
-            "4.03": 0x6739A0, "4.04": 0x82CEA0,
+            "4.03": 0x6739A0, "4.04": 0x82CEA0, "4.05": 0x902E20, "4.05b": 0x090CD24,
+            "4.07": 0x0AE5980, "4.10": 0x0AFF080
         }
     }
 

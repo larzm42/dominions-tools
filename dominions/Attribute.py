@@ -318,8 +318,8 @@ ATTRIBUTES_BUILDER_DATA[ 171 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 172 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Commander {Ntn: #uwcom}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 173 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -358,28 +358,28 @@ ATTRIBUTES_BUILDER_DATA[ 185 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 186 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Commander {Ntn: #uwcom}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 187 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Commander {Ntn: #uwcom}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 188 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Commander {Ntn: #uwcom}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 189 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Troop {Ntn: #uwunit}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 190 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Troop {Ntn: #uwunit}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 191 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Troop {Ntn: #uwunit}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 193 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -430,8 +430,8 @@ ATTRIBUTES_BUILDER_DATA[ 211 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 213 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Underwater Fort Troop {Ntn: #uwunit}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 217 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -589,6 +589,34 @@ ATTRIBUTES_BUILDER_DATA[ 306 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 307 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 308 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 309 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 310 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 311 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 312 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 313 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 404 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
@@ -597,7 +625,15 @@ ATTRIBUTES_BUILDER_DATA[ 426 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 482 ]      = _AttributesBuilderData(
+    "boolean_values", "Not Effected by Fire Bless",
+    "AttributeValue_Boolean"
+)
 ATTRIBUTES_BUILDER_DATA[ 477 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 495 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
@@ -641,7 +677,15 @@ ATTRIBUTES_BUILDER_DATA[ 709 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 710 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 711 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 713 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
