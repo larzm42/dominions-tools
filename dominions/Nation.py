@@ -100,7 +100,7 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
 
     _TITLE                      = "Nation"
     _PROGRAM_IMAGE_RECORD_SIZES = {
-        "4.03": 1108, "4.04": 1108, "4.05": 1108, "4.05b": 1108, "4.07": 1108, "4.10": 1108
+        "4.03": 1108, "4.04": 1108, "4.05": 1108, "4.05b": 1108, "4.07": 1108, "4.10": 1108, "4.14": 1108
     }
 
 
@@ -171,6 +171,7 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
 
         if -2 == monster_number:
             args[ "fort_leader_types" ] = [ ]
+            found = 0
             for slot_idx in range( slot_idx, 89 ):
                 monster_number, offset \
                 = _from_native_int32( program_image, offset )
@@ -178,7 +179,11 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
                 troop_type = NationFortLeaderType(
                     nation_number = number, monster_number = monster_number
                 )
+                if found == 1: continue
                 args[ "fort_leader_types" ].append( troop_type )
+                if number == 81:
+                    if monster_number == 2751:
+                        found = 1
 
         if -3 == monster_number:
             args[ "nonfort_troop_types" ] = [ ]
@@ -521,7 +526,7 @@ class Nations_DataTable( _DataTable_NamedInteger, _DataTable_ProgramImage ):
     _PROGRAM_IMAGE_BASE_OFFSETS = {
         _PLATFORM_LINUX( ): {
             "4.03": 0x6739A0, "4.04": 0x82CEA0, "4.05": 0x902E20, "4.05b": 0x090CD24,
-            "4.07": 0x0AE5980, "4.10": 0x0AFF080
+            "4.07": 0x0AE5980, "4.10": 0x0AFF080, "4.14": 0x0888D20
         }
     }
 

@@ -205,6 +205,10 @@ ATTRIBUTES_BUILDER_DATA[ 127 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 128 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 131 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
@@ -264,6 +268,10 @@ ATTRIBUTES_BUILDER_DATA[ 145 ]      = _AttributesBuilderData(
 ATTRIBUTES_BUILDER_DATA[ 146 ]      = _AttributesBuilderData(
     "generic_heroes", "National Generic Hero {Ntn: #multihero2}",
     "AttributeValue_Monster"
+)
+ATTRIBUTES_BUILDER_DATA[ 149 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 156 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -686,6 +694,10 @@ ATTRIBUTES_BUILDER_DATA[ 711 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 713 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 715 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
