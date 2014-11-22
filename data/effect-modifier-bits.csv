@@ -36,7 +36,7 @@
 "17179869184","<Unknown Modifier>",4.03
 "34359738368","<Unknown Modifier>",4.03
 "68719476736","<Unknown Modifier>",4.03
-"137438953472","Cannot Be Repelled (?) {Wpn: #unrepel}",4.03
+"137438953472","Cannot Repel {Wpn: #norepel}",4.03
 "274877906944","Piercing Damage {Wpn: #pierce}",4.03
 "549755813888","Bludgeoning Damage {Wpn: #blunt}",4.03
 "1099511627776","Slashing Damage {Wpn: #slash}",4.03
