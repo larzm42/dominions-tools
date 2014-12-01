@@ -179,7 +179,8 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
                 troop_type = NationFortLeaderType(
                     nation_number = number, monster_number = monster_number
                 )
-                if found == 1: continue
+                if found == 1:
+                    if monster_number == 2751: continue
                 args[ "fort_leader_types" ].append( troop_type )
                 if number == 81:
                     if monster_number == 2751:

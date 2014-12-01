@@ -151,6 +151,8 @@ class DominionsData( object ):
         with open( program_path, "rb" ) as program_file:
             with _mmap.mmap(
                 program_file.fileno( ), 0, prot = _mmap.PROT_READ
+#                Use this line on Windows
+#                program_file.fileno( ), 0, access = _mmap.ACCESS_READ
             ) as program_image:
 
                 dominions_version \
