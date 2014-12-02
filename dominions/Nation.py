@@ -221,6 +221,8 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
                     monster_numbers.add( monster_number )
                 if -1 == monster_number: break
                 if 0 == monster_number: continue
+                # Skip 134, not a pretender
+                if 134 == monster_number: continue
                 if 0 < monster_number:
                     troop_type = NationPretenderType(
                         nation_number = number,
