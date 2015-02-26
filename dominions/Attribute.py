@@ -625,6 +625,14 @@ ATTRIBUTES_BUILDER_DATA[ 313 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 314 ]      = _AttributesBuilderData(
+    "cheap_god", "Cheap God 20 {Ntn: #cheapgod20}",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 315 ]      = _AttributesBuilderData(
+    "cheap_god", "Cheap God 40 {Ntn: #cheapgod40}",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 404 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
