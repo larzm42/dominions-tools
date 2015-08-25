@@ -93,6 +93,8 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
     fort_troop_types        = _SQLA_relationship( "NationFortTroopType" )
     nonfort_leader_types    = _SQLA_relationship( "NationNonfortLeaderType" )
     nonfort_troop_types     = _SQLA_relationship( "NationNonfortTroopType" )
+    coast_troop_types     = _SQLA_relationship( "NationCoastTroopType" )
+    coast_leader_types     = _SQLA_relationship( "NationCoastLeaderType" )
 
     attributes              = _SQLA_relationship( "_NationAttribute" )
     unknown_fields          = _SQLA_relationship( "NationUnknownField" )
@@ -101,7 +103,7 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
     _TITLE                      = "Nation"
     _PROGRAM_IMAGE_RECORD_SIZES = {
         "4.03": 1108, "4.04": 1108, "4.05": 1108, "4.05b": 1108, "4.07": 1108, "4.10": 1108,
-        "4.14": 1108, "4.16": 1108, "4.17": 1108
+        "4.14": 1108, "4.16": 1108, "4.17": 1108, "4.20": 1108
     }
 
 
@@ -186,6 +188,28 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
                 if number == 81:
                     if monster_number == 2751:
                         found = 1
+
+        if -5 == monster_number:
+            args[ "coast_troop_types" ] = [ ]
+            for slot_idx in range( slot_idx, 89 ):
+                monster_number, offset \
+                = _from_native_int32( program_image, offset )
+                if 0 >= monster_number: break
+                troop_type = NationCoastTroopType(
+                    nation_number = number, monster_number = monster_number
+                )
+                args[ "coast_troop_types" ].append( troop_type )
+
+        if -6 == monster_number:
+            args[ "coast_leader_types" ] = [ ]
+            for slot_idx in range( slot_idx, 89 ):
+                monster_number, offset \
+                = _from_native_int32( program_image, offset )
+                if 0 >= monster_number: break
+                troop_type = NationCoastLeaderType(
+                    nation_number = number, monster_number = monster_number
+                )
+                args[ "coast_leader_types" ].append( troop_type )
 
         if -3 == monster_number:
             args[ "nonfort_troop_types" ] = [ ]
@@ -381,6 +405,20 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
             for troop_type in self.nonfort_troop_types:
                 # TODO: Fill out via table lookup.
                 output.append( indent_1 + str( troop_type.monster_number ) )
+        if self.coast_troop_types:
+            output.append(
+                indent + "Coast Troops {#coastunit}"
+            )
+            for troop_type in self.coast_troop_types:
+                # TODO: Fill out via table lookup.
+                output.append( indent_1 + str( troop_type.monster_number ) )
+        if self.coast_leader_types:
+            output.append(
+                indent + "Coast Leaders {#coastcom}"
+            )
+            for troop_type in self.coast_leader_types:
+                # TODO: Fill out via table lookup.
+                output.append( indent_1 + str( troop_type.monster_number ) )
 
         if self.attributes:
             for attribute in self.attributes:
@@ -445,6 +483,17 @@ class NationNonfortTroopType( _NationTroopType ):
     
     __tablename__   = "nonfort_troop_types_by_nation"
 
+class NationCoastTroopType( _NationTroopType ):
+    """ A recruitable troop type of a nation. """
+
+
+    __tablename__   = "coast_troop_types_by_nation"
+
+class NationCoastLeaderType( _NationTroopType ):
+    """ A recruitable troop type of a nation. """
+
+
+    __tablename__   = "coast_leader_types_by_nation"
 
 class NationFortLeaderType( _NationTroopType ):
     """ A recruitable troop type of a nation. """
@@ -531,7 +580,7 @@ class Nations_DataTable( _DataTable_NamedInteger, _DataTable_ProgramImage ):
         _PLATFORM_LINUX( ): {
             "4.03": 0x6739A0, "4.04": 0x82CEA0, "4.05": 0x902E20, "4.05b": 0x090CD24,
             "4.07": 0x0AE5980, "4.10": 0x0AFF080, "4.14": 0x0888D20, "4.16": 0x0756060,
-            "4.17": 0x0643DE0
+            "4.17": 0x0643DE0, "4.20": 0x0FC2CE0
         }
     }
 

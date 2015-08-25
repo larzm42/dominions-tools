@@ -209,6 +209,10 @@ ATTRIBUTES_BUILDER_DATA[ 128 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 129 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 131 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
@@ -302,8 +306,8 @@ ATTRIBUTES_BUILDER_DATA[ 162 ]      = _AttributesBuilderData(
     "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 163 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Non-Coastal Land Troop",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 167 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -529,6 +533,10 @@ ATTRIBUTES_BUILDER_DATA[ 280 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 281 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 287 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
@@ -538,8 +546,8 @@ ATTRIBUTES_BUILDER_DATA[ 288 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 289 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "homerealm", "Home Realm {Ntn: #homerealm}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 290 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -550,40 +558,44 @@ ATTRIBUTES_BUILDER_DATA[ 293 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 294 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Recruit: Forest {Ntn: #forestrec}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 295 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Commander: Forest {Ntn: #forestcom}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 296 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Recruit: Swamp {Ntn: #swamprec}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 297 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Commander: Swamp {Ntn: #swampcom}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 298 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Recruit: Mountain {Ntn: #mountainrec}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 299 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Commander: Mountain {Ntn: #mountaincom}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 300 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Recruit: Waste {Ntn: #wasterec}",
+    "AttributeValue_Nation"
+)
+ATTRIBUTES_BUILDER_DATA[ 301 ]      = _AttributesBuilderData(
+    "terrain_recruit", "Terrain-Specific Commander: Waste {Ntn: #wastecom}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 302 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Recruit: Cave {Ntn: #caverec}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 303 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "terrain_recruit", "Terrain-Specific Commander: Cave {Ntn: #cavecom}",
+    "AttributeValue_Nation"
 )
 ATTRIBUTES_BUILDER_DATA[ 304 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -631,6 +643,30 @@ ATTRIBUTES_BUILDER_DATA[ 314 ]      = _AttributesBuilderData(
 )
 ATTRIBUTES_BUILDER_DATA[ 315 ]      = _AttributesBuilderData(
     "cheap_god", "Cheap God 40 {Ntn: #cheapgod40}",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 317 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 318 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 319 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 320 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 321 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 322 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 404 ]      = _AttributesBuilderData(

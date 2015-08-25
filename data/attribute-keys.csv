@@ -34,6 +34,8 @@
 125,"<Unknown Attribute>",4.03
 126,"<Unknown Attribute>",4.03
 127,"<Unknown Attribute>",4.03
+128,"<Unknown Attribute>",4.03
+129,"<Unknown Attribute>",4.03
 131,"<Unknown Attribute>",4.03
 132,"<Unknown Attribute>",4.03
 133,"<Unknown Attribute>",4.03
@@ -49,6 +51,7 @@
 144,"National Unique Hero {Ntn: #hero6}",4.03
 145,"National Generic Hero {Ntn: #multihero1}",4.03
 146,"National Generic Hero {Ntn: #multihero2}",4.03
+149,"<Unknown Attribute>",4.03
 156,"<Unknown Attribute>",4.03
 157,"<Unknown Attribute>",4.03
 158,"Coastal Fort Commander {Ntn: #coastcom1}",4.03
@@ -62,7 +65,7 @@
 169,"<Unknown Attribute>",4.03
 170,"<Unknown Attribute>",4.03
 171,"<Unknown Attribute>",4.03
-172,"<Unknown Attribute>",4.03
+172,"Underwater Fort Commander {Ntn: #uwcom}",4.03
 173,"<Unknown Attribute>",4.03
 174,"<Unknown Attribute>",4.03
 175,"<Unknown Attribute>",4.03
@@ -72,12 +75,12 @@
 179,"<Unknown Attribute>",4.03
 180,"<Unknown Attribute>",4.03
 185,"<Unknown Attribute>",4.03
-186,"Underwater Fort Commander {Ntn: #uwcom?}",4.03
-187,"Underwater Fort Commander {Ntn: #uwcom?}",4.03
-188,"Underwater Fort Commander {Ntn: #uwcom?}",4.03
-189,"Underwater Fort Troop {Ntn: #uwunit?}",4.03
-190,"Underwater Fort Troop {Ntn: #uwunit?}",4.03
-191,"Underwater Fort Troop {Ntn: #uwunit?}",4.03
+186,"Underwater Fort Commander {Ntn: #uwcom}",4.03
+187,"Underwater Fort Commander {Ntn: #uwcom}",4.03
+188,"Underwater Fort Commander {Ntn: #uwcom}",4.03
+189,"Underwater Fort Troop {Ntn: #uwunit}",4.03
+190,"Underwater Fort Troop {Ntn: #uwunit}",4.03
+191,"Underwater Fort Troop {Ntn: #uwunit}",4.03
 193,"<Unknown Attribute>",4.03
 194,"<Unknown Attribute>",4.03
 195,"<Unknown Attribute>",4.03
@@ -90,7 +93,7 @@
 207,"<Unknown Attribute>",4.03
 210,"<Unknown Attribute>",4.03
 211,"<Unknown Attribute>",4.03
-213,"<Unknown Attribute>",4.03
+213,"Underwater Fort Troop {Ntn: #uwunit}",4.03
 217,"<Unknown Attribute>",4.03
 220,"<Unknown Attribute>",4.03
 221,"<Unknown Attribute>",4.03
@@ -113,6 +116,7 @@
 278,"Restrict to Nation {Spl: #restricted}",4.03
 279,"<Unknown Attribute>",4.03
 280,"<Unknown Attribute>",4.03
+281,"<Unknown Attribute>",4.03
 287,"<Unknown Attribute>",4.03
 288,"<Unknown Attribute>",4.03
 289,"Home Realm {Ntn: #homerealm}",4.03
@@ -131,6 +135,21 @@
 304,"<Unknown Attribute>",4.03
 305,"<Unknown Attribute>",4.03
 306,"<Unknown Attribute>",4.03
+307,"<Unknown Attribute>",4.03
+308,"<Unknown Attribute>",4.03
+309,"<Unknown Attribute>",4.03
+310,"<Unknown Attribute>",4.03
+311,"<Unknown Attribute>",4.03
+312,"<Unknown Attribute>",4.03
+313,"<Unknown Attribute>",4.03
+314,"Cheap God 20 {Ntn: #cheapgod20}",4.03
+315,"Cheap God 40 {Ntn: #cheapgod40}",4.03
+317,"<Unknown Attribute>",4.03
+318,"<Unknown Attribute>",4.03
+319,"<Unknown Attribute>",4.03
+320,"<Unknown Attribute>",4.03
+321,"<Unknown Attribute>",4.03
+322,"<Unknown Attribute>",4.03
 404,"<Unknown Attribute>",4.03
 426,"Restricted to Realm",4.03
 477,"<Unknown Attribute>",4.03

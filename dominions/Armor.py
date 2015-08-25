@@ -118,7 +118,7 @@ class Armor( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
     _TITLE                      = "Armor"
     _PROGRAM_IMAGE_RECORD_SIZES = {
         "4.03": 96, "4.04": 96, "4.05": 96, "4.05b": 96, "4.07": 96, "4.10": 96,
-        "4.14": 96, "4.16": 96, "4.17": 96
+        "4.14": 96, "4.16": 96, "4.17": 96, "4.20": 96
     }
 
 
@@ -410,7 +410,7 @@ class Armors_DataTable( _DataTable_NamedInteger, _DataTable_ProgramImage ):
         _PLATFORM_LINUX( ): {
             "4.01": 0x9988E0, "4.03": 0x9A5340, "4.04": 0x98BFE0, "4.05": 0x4BC5E0,
             "4.05b": 0x073DE80, "4.07": 0x04f5660, "4.10": 0x0551780, "4.14": 0x3E6620,
-            "4.16": 0x0511360, "4.17": 0x03F9420
+            "4.16": 0x0511360, "4.17": 0x03F9420, "4.20": 0x04062C0
         }
     }
 
