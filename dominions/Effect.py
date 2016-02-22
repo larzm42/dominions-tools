@@ -528,6 +528,10 @@ EFFECTS_BUILDER_DATA[ 123 ]       = _EffectsBuilderData(
     "unknown_arguments", "<Unknown Argument Type>",
     "EffectArgument_GenericValue"
 )
+EFFECTS_BUILDER_DATA[ 125 ]       = _EffectsBuilderData(
+    "unknown_arguments", "<Unknown Argument Type>",
+    "EffectArgument_GenericValue"
+)
 EFFECTS_BUILDER_DATA[ 500 ]       = _EffectsBuilderData(
     "unknown_arguments", "<Unknown Argument Type>",
     "EffectArgument_GenericValue"

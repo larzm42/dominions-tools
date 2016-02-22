@@ -669,6 +669,10 @@ ATTRIBUTES_BUILDER_DATA[ 322 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
+ATTRIBUTES_BUILDER_DATA[ 324 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
 ATTRIBUTES_BUILDER_DATA[ 404 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
@@ -742,6 +746,18 @@ ATTRIBUTES_BUILDER_DATA[ 713 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 715 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 716 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 717 ]      = _AttributesBuilderData(
+    "unknown_values", "<Unknown Attribute>",
+    "AttributeValue_GenericValue"
+)
+ATTRIBUTES_BUILDER_DATA[ 718 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
     "AttributeValue_GenericValue"
 )
