@@ -172,94 +172,95 @@ class Nation( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
             )
             args[ "fort_troop_types" ].append( troop_type )
 
-        if -2 == monster_number:
-            args[ "fort_leader_types" ] = [ ]
-            found = 0
-            for slot_idx in range( slot_idx, 89 ):
-                monster_number, offset \
-                = _from_native_int32( program_image, offset )
-                if 0 >= monster_number: break
-                troop_type = NationFortLeaderType(
-                    nation_number = number, monster_number = monster_number
-                )
-                if found == 1:
-                    if monster_number == 2751: continue
-                args[ "fort_leader_types" ].append( troop_type )
-                if number == 81:
-                    if monster_number == 2751:
-                        found = 1
-
-        if -5 == monster_number:
-            args[ "coast_troop_types" ] = [ ]
-            for slot_idx in range( slot_idx, 89 ):
-                monster_number, offset \
-                = _from_native_int32( program_image, offset )
-                if 0 >= monster_number: break
-                troop_type = NationCoastTroopType(
-                    nation_number = number, monster_number = monster_number
-                )
-                args[ "coast_troop_types" ].append( troop_type )
-
-        if -6 == monster_number:
-            args[ "coast_leader_types" ] = [ ]
-            for slot_idx in range( slot_idx, 89 ):
-                monster_number, offset \
-                = _from_native_int32( program_image, offset )
-                if 0 >= monster_number: break
-                troop_type = NationCoastLeaderType(
-                    nation_number = number, monster_number = monster_number
-                )
-                args[ "coast_leader_types" ].append( troop_type )
-
-        if -3 == monster_number:
-            args[ "nonfort_troop_types" ] = [ ]
-            for slot_idx in range( slot_idx, 89 ):
-                monster_number, offset \
-                = _from_native_int32( program_image, offset )
-                if 0 >= monster_number: break
-                troop_type = NationNonfortTroopType(
-                    nation_number = number, monster_number = monster_number
-                )
-                args[ "nonfort_troop_types" ].append( troop_type )
-
-        if -4 == monster_number:
-            args[ "nonfort_leader_types" ] = [ ]
-            for slot_idx in range( slot_idx, 89 ):
-                monster_number, offset \
-                = _from_native_int32( program_image, offset )
-                if 0 >= monster_number: break
-                troop_type = NationNonfortLeaderType(
-                    nation_number = number, monster_number = monster_number
-                )
-                args[ "nonfort_leader_types" ].append( troop_type )
-
-        if -1 == monster_number:
-            args[ "pretender_types" ] = [ ]
-            args[ "unpretender_types" ] = [ ]
-            monster_numbers = set( )
-            for slot_idx in range( slot_idx, 89 ):
-                monster_number, offset \
-                = _from_native_int32( program_image, offset )
-                if monster_number in monster_numbers:
-                    continue
-                else:
-                    monster_numbers.add( monster_number )
-                if -1 == monster_number: break
-                if 0 == monster_number: continue
-                # Skip 134, not a pretender
-                if 134 == monster_number: continue
-                if 0 < monster_number:
-                    troop_type = NationPretenderType(
-                        nation_number = number,
-                        monster_number = monster_number
+        for slot_idx in range( slot_idx, 89 ):
+            if -2 == monster_number:
+                args[ "fort_leader_types" ] = [ ]
+                found = 0
+                for slot_idx in range( slot_idx, 89 ):
+                    monster_number, offset \
+                    = _from_native_int32( program_image, offset )
+                    if 0 >= monster_number: break
+                    troop_type = NationFortLeaderType(
+                        nation_number = number, monster_number = monster_number
                     )
-                    args[ "pretender_types" ].append( troop_type )
-                else:
-                    troop_type = NationUnpretenderType(
-                        nation_number = number,
-                        monster_number = -monster_number
+                    if found == 1:
+                        if monster_number == 2751: continue
+                    args[ "fort_leader_types" ].append( troop_type )
+                    if number == 81:
+                        if monster_number == 2751:
+                            found = 1
+
+            if -5 == monster_number:
+                args[ "coast_troop_types" ] = [ ]
+                for slot_idx in range( slot_idx, 89 ):
+                    monster_number, offset \
+                    = _from_native_int32( program_image, offset )
+                    if 0 >= monster_number: break
+                    troop_type = NationCoastTroopType(
+                        nation_number = number, monster_number = monster_number
                     )
-                    args[ "unpretender_types" ].append( troop_type )
+                    args[ "coast_troop_types" ].append( troop_type )
+
+            if -6 == monster_number:
+                args[ "coast_leader_types" ] = [ ]
+                for slot_idx in range( slot_idx, 89 ):
+                    monster_number, offset \
+                    = _from_native_int32( program_image, offset )
+                    if 0 >= monster_number: break
+                    troop_type = NationCoastLeaderType(
+                        nation_number = number, monster_number = monster_number
+                    )
+                    args[ "coast_leader_types" ].append( troop_type )
+
+            if -3 == monster_number:
+                args[ "nonfort_troop_types" ] = [ ]
+                for slot_idx in range( slot_idx, 89 ):
+                    monster_number, offset \
+                    = _from_native_int32( program_image, offset )
+                    if 0 >= monster_number: break
+                    troop_type = NationNonfortTroopType(
+                        nation_number = number, monster_number = monster_number
+                    )
+                    args[ "nonfort_troop_types" ].append( troop_type )
+
+            if -4 == monster_number:
+                args[ "nonfort_leader_types" ] = [ ]
+                for slot_idx in range( slot_idx, 89 ):
+                    monster_number, offset \
+                    = _from_native_int32( program_image, offset )
+                    if 0 >= monster_number: break
+                    troop_type = NationNonfortLeaderType(
+                        nation_number = number, monster_number = monster_number
+                    )
+                    args[ "nonfort_leader_types" ].append( troop_type )
+
+            if -1 == monster_number:
+                args[ "pretender_types" ] = [ ]
+                args[ "unpretender_types" ] = [ ]
+                monster_numbers = set( )
+                for slot_idx in range( slot_idx, 89 ):
+                    monster_number, offset \
+                    = _from_native_int32( program_image, offset )
+                    if monster_number in monster_numbers:
+                        continue
+                    else:
+                        monster_numbers.add( monster_number )
+                    if -1 == monster_number: break
+                    if 0 == monster_number: continue
+                    # Skip 134, not a pretender
+                    if 134 == monster_number: continue
+                    if 0 < monster_number:
+                        troop_type = NationPretenderType(
+                            nation_number = number,
+                            monster_number = monster_number
+                        )
+                        args[ "pretender_types" ].append( troop_type )
+                    else:
+                        troop_type = NationUnpretenderType(
+                            nation_number = number,
+                            monster_number = -monster_number
+                        )
+                        args[ "unpretender_types" ].append( troop_type )
 
         # Note: Should not have any non-zero values.
         for slot_idx in range( slot_idx, 89):
