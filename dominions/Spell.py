@@ -134,7 +134,8 @@ class Spell( _DataTableRow_NamedInteger, _DataTableRow_ProgramImage ):
     _TITLE                      = "Spell"
     _PROGRAM_IMAGE_RECORD_SIZES = {
         "4.03": 200, "4.04": 200, "4.05": 200, "4.05b": 200, "4.07": 200, "4.10": 200,
-        "4.14": 200, "4.16": 200, "4.17": 200, "4.20": 200, "4.21": 200, "4.22": 200, "4.23": 200
+        "4.14": 200, "4.16": 200, "4.17": 200, "4.20": 200, "4.21": 200, "4.22": 200,
+        "4.23": 200, "4.24": 200
     }
 
 
@@ -483,7 +484,8 @@ class Spells_DataTable( _DataTable_NamedInteger, _DataTable_ProgramImage ):
         _PLATFORM_LINUX( ): {
             "4.03": 0x6BBAE0, "4.04": 0x8A7560, "4.05": 0x9F4620, "4.05b": 0x0983810,
             "4.07": 0x07c3f40, "4.10": 0x08143e0, "4.14": 0x0F0C460, "4.16": 0x04385C0,
-            "4.17": 0x0EDC4E0, "4.20": 0x0CE3EC0, "4.21": 0x0eed460, "4.22": 0x0eee4e0, "4.23": 0x0f71600
+            "4.17": 0x0EDC4E0, "4.20": 0x0CE3EC0, "4.21": 0x0eed460, "4.22": 0x0eee4e0,
+            "4.23": 0x0f71600, "4.24": 0x06d3560
         }
     }
     _PROGRAM_IMAGE_BASE_OFFSETS_DESCRIPTIONS_INDEX = {
