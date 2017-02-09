@@ -173,8 +173,10 @@ class DominionsVersion( object ):
             platform, version = PLATFORM_LINUX( ), "4.26"
         elif "version 4.27" == from_string( program_image, 0x278bc4, 12 )[ 0 ]:
             platform, version = PLATFORM_LINUX( ), "4.27"
-        elif "version 4.28" == from_string(program_image, 0x03126f9, 12)[0]:
-            platform, version = PLATFORM_LINUX(), "4.28"
+        elif "version 4.28" == from_string( program_image, 0x3126f9, 12)[ 0 ]:
+            platform, version = PLATFORM_LINUX( ), "4.28"
+        elif "version 4.29" == from_string( program_image, 0x313bfb, 12)[ 0 ]:
+            platform, version = PLATFORM_LINUX( ), "4.29"
         else:
             raise LookupError( "Could not determine Dominions version." )
         
